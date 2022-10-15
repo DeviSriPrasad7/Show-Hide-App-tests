@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.show-hide-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.two-buttons {
+  display: flex;
+}
+.button {
+  background-color: #ffffff;
+  color: #fc63a7;
+  font-family: 'Roboto';
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+  height: 5vh;
+  width: 100%;
+  align-self: center;
+}
+.joe-container {
+  align-self: center;
+  margin: 10px;
+  border-radius: 7px;
+}
+.joans-container {
+  align-self: center;
+  margin-left: 10px;
+}
+.no-display {
+  visibility: hidden;
+}
+.ready-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: #fddddb;
+  border-radius: 7px;
+  margin: 5px;
+  width: 95%;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
